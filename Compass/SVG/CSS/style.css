@@ -1,0 +1,31 @@
+/*--------------------------
+-----------GENERAL----------
+--------------------------*/
+* {
+	text-align: center;
+}
+
+/*--------------------------
+------------HEAD------------
+--------------------------*/
+h1{
+	font-family: 'Bahiana', cursive;
+	margin-top: 30px;
+}
+
+/*--------------------------
+----------SECTIONS----------
+--------------------------*/
+p{
+	border: solid #808080;
+	border-width: 1px 0 1px 0;
+	color: #808080;
+	display: inline-block;
+	font-family: 'Inconsolata', monospace;
+	padding: 10px;
+	width: 370px;
+}
+
+svg{
+	margin-top: 30px;
+}
