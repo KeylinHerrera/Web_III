@@ -1,0 +1,19 @@
+//Importar tipografia externa
+
+@font-face {
+    font-family: 'shorelines';
+    src: url('../fonts/shorelines.woff2') format('woff2'),
+         url('../fonts/shorelines.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.shoreLines {
+	color: #A9A9A9;
+	font-family: 'shorelines', serif;
+	padding: 30px;
+	position: relative;
+	text-align: center;
+}
+

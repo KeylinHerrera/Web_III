@@ -1,0 +1,46 @@
+.transitionBox {
+	background-color: #FFC0CB;
+	-webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+   	-moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+    -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+    -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+	transition:  width 1s, height 1s, background-color 1s, transform 0.5s;
+}
+
+.transitionBox:hover {
+	background-color: #B0E0E6;
+}
+
+.transition {
+	-webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+   	-moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+    -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+    -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+	transition:  width 1s, height 1s, background-color 1s, transform 0.5s;
+}
+
+.transition:hover {
+	background-color: #48D1CC;
+}
+
+.transitionGrad {
+	width: 300px;
+	height: 150px;
+	float: left;
+	background-color: #FFC0CB;
+	margin-left: 372px;
+	margin-top: 60px;
+	-webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+   	-moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+    -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+    -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;;
+	transition:  width 1s, height 1s, background-color 1s, transform 0.5s;
+}
+
+.transitionGrad:hover {
+	background: -webkit-linear-gradient(blue, white, white, red, white, white, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white, white, red, white, white, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white, white, red, white, white, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white, white, red, white, white, blue); /* Standard syntax (must be last) */
+}
+

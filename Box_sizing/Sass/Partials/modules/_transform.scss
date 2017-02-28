@@ -1,0 +1,21 @@
+.transform {
+	width: 150px;
+	height: 85px;
+	float: left;
+	background-color: #B0E0E6;
+	border: 1px solid white;
+	margin-left: 148px;
+	margin-top: 60px;
+}
+
+#translate:hover {
+    transform:translateX(20px);;
+}
+
+#rotate:hover  {
+    transform:rotate(50deg);
+}
+
+#scale:hover  {
+    transform:scale(1.5,1.5);
+}
