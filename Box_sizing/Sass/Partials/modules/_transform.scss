@@ -8,6 +8,8 @@
 	margin-top: 60px;
 }
 
+/* Translate X */
+
 #translate:hover {
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
@@ -16,6 +18,8 @@
     transform:translateX(20px);
 }
 
+/* Translate Rotate */
+
 #rotate:hover  {
 	-webkit-transform: rotate(50deg);
 	-moz-transform: rotate(50deg);
@@ -23,6 +27,8 @@
 	-o-transform: rotate(50deg);
     transform:rotate(50deg);
 }
+
+/* Translate Scale */
 
 #scale:hover  {
 	-webkit-transform: scale(1.5,1.5);
