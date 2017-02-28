@@ -9,13 +9,25 @@
 }
 
 #translate:hover {
-    transform:translateX(20px);;
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	-ms-transform: translateX(20px);
+	-o-transform: translateX(20px);
+    transform:translateX(20px);
 }
 
 #rotate:hover  {
+	-webkit-transform: rotate(50deg);
+	-moz-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
     transform:rotate(50deg);
 }
 
 #scale:hover  {
+	-webkit-transform: scale(1.5,1.5);
+	-moz-transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+	-o-transform: scale(1.5,1.5);
     transform:scale(1.5,1.5);
 }
