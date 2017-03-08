@@ -1,0 +1,31 @@
+.info {
+	display: inline-block;
+	padding: 75px;
+	width: 500px;   
+}
+
+.who {
+	background-image: url("../img/who.jpg");
+	color: white;
+	display: inline-block;
+	height: 565px;
+	width: 100%;
+
+	img {
+    	bottom: 100px;
+    	left: 70px;
+    	position: relative;
+    	width: 400px;
+	}
+
+	h1 {
+		padding: 30px 0 30px;
+	}
+
+	p {
+		font: 18px arial, serif;
+		letter-spacing: 2px;
+		text-align: justify;
+		padding-bottom: 30px;
+	}
+}
