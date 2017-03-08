@@ -1,0 +1,70 @@
+.packages {
+	background-color: white;
+	padding: 86px;
+
+	h2 {
+		color: #271E3F;
+		font: 30px arial, serif;
+		text-align: center;
+		text-transform: uppercase;
+	}
+} 
+
+.pack {
+	background-color: black;
+	display: inline-block;
+	height: 256px;
+	margin-left: 20px;
+	margin-top: 30px;
+	width: 398px;	
+}
+
+.caribe {
+	background-image: url("../img/caribe.jpg");
+
+	&:hover {
+		background-image: url("../img/cuba.jpg");
+	}
+}
+
+.sele {
+	background-image: url("../img/sele.jpg");
+	transition:  width 1s, height 1s, background-color 1s, transform 0.5s;
+
+	&:hover {
+		background-image: url("../img/caribe.jpg");
+	}
+}
+
+.cuba {
+	background-image: url("../img/cuba.jpg");
+	transition:  width 1s, height 1s, background-color 1s, transform 0.5s;
+
+	&:hover {
+		background-image: url("../img/sele.jpg");
+	}
+}
+
+.more {
+	
+    background-color: black;
+    color: white;
+    float: left;
+    font: 22px arial, serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+	height: 60px;
+    opacity: 0.6;
+    text-align: center;
+    transition: height 1s;
+    transition-timing-function: ease-in;
+    width: 100%;
+    
+	&:hover {
+		height: 120px;
+
+		&:after {
+			content: "Más información";
+			font: 14px arial, serif;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.banner div{
+    background-image: url("../img/banner.jpg");
+    height: 545px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'beyond_mountains';
+    src: url('../fonts/beyond_the_mountains-webfont.woff2') format('woff2'),
+         url('../fonts/beyond_the_mountains-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.beyond-mountains {
+    color: white;
+    float: left;
+    font-family: 'beyond_mountains';
+    font-size: 98px;
+    margin-left: 250px;
+    margin-top: 180px;
+    text-align: center;  
+}
