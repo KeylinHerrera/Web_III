@@ -1,0 +1,35 @@
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-right: 450px;
+}
+
+footer li {
+	float: right;
+	margin-top: 30px;
+}
+
+footer a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 16px arial, sans-serif;
+}
+
+footer img {
+	margin-left: 700px;
+	padding: 20px;
+}
+
+footer p {
+	text-align: center;
+	padding: 10px;
+}

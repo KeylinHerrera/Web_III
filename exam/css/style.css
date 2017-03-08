@@ -1,0 +1,138 @@
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+main {
+  width: 1440px;
+  background-color: white; }
+
+header {
+  background-color: black;
+  padding: 20px; }
+
+.logo {
+  position: relative;
+  top: 28px;
+  left: 16px; }
+
+header ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+header li {
+  float: right; }
+
+header a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 16px arial, sans-serif; }
+
+@font-face {
+  font-family: 'beyond_mountains';
+  src: url("../fonts/beyond_the_mountains-webfont.woff2") format("woff2"), url("../fonts/beyond_the_mountains-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.beyond-mountains {
+  color: white;
+  font-family: 'beyond_mountains';
+  text-align: center;
+  position: relative;
+  bottom: 480px;
+  font-size: 98px; }
+
+.packages {
+  background-color: white;
+  padding: 86px; }
+
+.pack {
+  display: inline-block;
+  width: 398px;
+  height: 256px;
+  background-color: black;
+  margin-left: 20px; }
+
+.caribe {
+  background-image: url("../img/caribe.jpg");
+  -webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  transition: width 1s, height 1s, background-color 1s, transform 0.5s; }
+  .caribe:hover {
+    background-image: url("../img/cuba.jpg"); }
+
+.sele {
+  background-image: url("../img/sele.jpg");
+  -webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  transition: width 1s, height 1s, background-color 1s, transform 0.5s; }
+  .sele:hover {
+    background-image: url("../img/caribe.jpg"); }
+
+.cuba {
+  background-image: url("../img/cuba.jpg");
+  -webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  transition: width 1s, height 1s, background-color 1s, transform 0.5s; }
+  .cuba:hover {
+    background-image: url("../img/sele.jpg"); }
+
+.more {
+  height: 60px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 180px;
+  -webkit-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -moz-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -ms-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  -o-transition: width 1s, height 1s, background-color 1s, transform 0.5s;
+  transition: width 1s, height 1s, background-color 1s, transform 0.5s; }
+  .more:hover {
+    background-color: gray; }
+
+.who {
+  height: 565px;
+  background-image: url("../img/who.jpg");
+  color: white;
+  display: inline-block; }
+
+footer {
+  background-color: black;
+  color: white; }
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 450px; }
+
+footer li {
+  float: right;
+  margin-top: 30px; }
+
+footer a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 16px arial, sans-serif; }
+
+footer img {
+  margin-left: 700px;
+  padding: 20px; }
+
+footer p {
+  text-align: center;
+  padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

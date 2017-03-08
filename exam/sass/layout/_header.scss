@@ -1,0 +1,30 @@
+header {
+	background-color: black;
+	padding: 20px;
+}
+
+.logo {
+	position: relative;
+    top: 28px;
+    left: 16px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+header li {
+	float: right;
+}
+
+header a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 16px arial, sans-serif;
+}
+
