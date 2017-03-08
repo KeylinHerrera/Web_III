@@ -1,0 +1,29 @@
+header {
+	background-color: black;
+	padding: 20px;
+
+	ul {
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	li {
+		float: right;
+	}
+
+	a {
+		color: white;
+		font: 16px arial, sans-serif;
+		padding: 14px 16px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
+
+.logo {
+	left: 16px;
+	position: relative;
+	top: 28px;
+}
