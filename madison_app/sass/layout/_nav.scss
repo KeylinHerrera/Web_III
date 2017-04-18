@@ -1,0 +1,46 @@
+.navHeader {
+
+    margin-bottom: 50px;
+
+    ul {
+        background-color: $yellow;
+        overflow: hidden;
+    }
+
+    li a {
+        color: $a-color;
+        display: block;
+        font-family: $h-family;
+        padding: 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+
+    li a:hover {
+        background-color: #62493D;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+} 
+
+.dropdown-content {
+    background-color: #62493D;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    z-index: 1;
+
+    a {
+        border-bottom: 1px solid #806d63;
+    }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'franchiseregular';
+    src: url('../fonts/franchise-bold-webfont.woff2') format('woff2'),
+         url('../fonts/franchise-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    
+    background-image: url("../img/bg/texture_header.png");
+    box-sizing:border-box;
+    display: flex;
+    padding: 46px 3.5% 26px 3.5%;
+    width: 100%;
+}
+
+.logo {
+    color: #683B25;
+    text-align: center;
+    text-transform: uppercase;
+
+    h1 {
+        font-family: 'franchiseregular';
+        font-size: 85px;    
+    }
+
+    p {
+        font-family: tahoma;
+        font-size: 14px;
+    }
+}
+
+.socialMedia {
+
+    margin-left: 50%;
+
+    li {
+        float: left;
+    }
+}
+
+.sprite {
+    background-image: url("../img/header/social_media.png");
+    background-repeat: no-repeat;
+    display: block;
+
+    width: 32px;
+    height: 32px;
+
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    margin-left: 10px;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+}
+
+.sprite-as {
+
+    &:hover {
+        background-image: url("../img/header/social_media_hover.png");
+    }
+}
+
+.sprite-tumbrl {
+    background-position: -43px 0;
+}
+
+.sprite-twitter {
+    background-position: -85px 0;
+
+}
+
+.sprite-wd {
+    background-position: -128px 0;
+
+}

@@ -1,0 +1,32 @@
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+#slider {
+    margin: 48px 0 135px 0;
+    overflow: hidden;
+    
+    figure img {
+        float: left;
+        width: 20%;
+    }
+
+    figure {
+        animation: 15s slidy infinite;
+        font-size: 0;
+        left: 0;
+        margin: 0;
+        position: relative;
+        text-align: left;
+        width: 500%;
+
+    }
+}

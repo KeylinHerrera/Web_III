@@ -1,0 +1,105 @@
+.workWrap {
+	display: flex;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.workImg {
+	width: 35%;
+
+    img {
+        margin: 15px 0 15px 0;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        
+    }
+
+    a {
+        color: $brown;
+        font-family: $h-family;
+        font-size: $a-size;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 5px;
+
+        &:hover {
+            color: $yellow;
+        } 
+
+    }
+}
+
+.tittleWork {
+	border-color: #683B25;
+    border-style: solid;
+    border-width: 4px 0 2px 0;
+    padding: 16px 0;
+    cursor: pointer;
+
+    ul {
+    	padding: 0;
+    }
+
+    li {
+    	display: inline-block;
+    	
+    }
+
+    a {
+        color: $brown;
+    	font-family: $h-family;
+    	font-size: $a-size;
+    	text-decoration: none;
+    	text-transform: uppercase;
+        margin-left: 5px;
+
+        &:hover {
+            color: $yellow;
+        } 
+
+    }
+}
+
+.numberWork {
+    border-color: #683B25;
+    border-style: solid;
+    border-width: 4px 0 2px 0;
+    padding: 16px 0;
+    cursor: pointer;
+    margin-top: 50px;
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+
+        
+    }
+
+    a {
+        color: $brown;
+        font-family: $h-family;
+        font-size: $a-size;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 5px;
+
+        &:hover {
+            background-color: $yellow;
+            color: $a-color;
+        } 
+
+    }
+}

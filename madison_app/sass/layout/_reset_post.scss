@@ -1,0 +1,25 @@
+.asideHome {
+    display: inline-block;
+    font-family: $h-family;
+    margin-top: 60px;
+    width: 30%;
+
+    a {
+        color: $brown;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    p {
+        color: $yellow;
+        font-size: 14px;
+    }
+}
+
+.post {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    color: #683B25;
+    padding: 10px 0 10px 0;
+}
+

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/bg/textura_madera.png");
+}
+
+.contenedor {
+    background-color: #DEDAD3;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.mainWrap {
+	width: 94%;
+	margin: 0 auto;
+}
+
+button {
+    background-color: $yellow;
+    border: none;
+    color: $a-color;
+    font-family: $a-family;
+    font-size: $a-size;
+    margin-top: 30px;
+    padding: 10px 10px;
+
+    &:hover {
+        background-color: $brown;
+    }
+ }
+
+ h1 {
+    color: $brown;
+    font-family: $h-family;
+    font-size: $h1-size;
+    text-transform: uppercase;
+ }

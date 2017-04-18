@@ -1,0 +1,78 @@
+@media screen and (max-width: 625px) {
+
+    .contenedor, .featuredVideo, .asideHome {
+        width: 100%;
+    }
+
+    .projectPics, aside, video {
+        width: 100%;
+    }
+
+    .asideProject, .socialMedia {
+        display: none;
+    }
+
+    .logo {
+        h1{
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 7px;
+        }
+    }
+
+    .navHeader a{
+        font-size: 10px;
+    }
+
+    #slider {
+        margin: 20px 0 50px 0;
+    }
+
+    .infoItems, .workWrap  {
+        width: 100%;
+
+        img {
+            height: auto;
+            width: 100%; 
+        }
+    }
+
+    .dummyItem, .workImg, .relatedItem {
+
+        &:first-child {
+            width: 100%
+        }
+
+        &:nth-child(2) {
+            display: none;
+        }
+
+        &:nth-child(3) {
+            display: none;
+        }
+    }
+
+    .projectPics img{
+
+        &:first-child {
+            display: none;
+        }
+
+        &:nth-child(2) {
+            width: 100%;
+        } 
+        
+    }
+    .relatedWork {
+        margin-bottom: 30px;
+    }
+    
+    .relatedItem {
+
+        img {
+            width: 100%;
+        } 
+    }
+}
